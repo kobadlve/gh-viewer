@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E095EA307F3DCBA68905F08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD24643C792B1EE2CDB240 /* AppDelegate.swift */; };
+		1EEA39A2133FFA408BD85900 /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62EE971751C191CDC5696A9 /* GitHubAPI.swift */; };
+		26532D37417AF0118D0DAE05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33B66A4B4685D888BD41583 /* SceneDelegate.swift */; };
+		36398E3F2D564EFFD9FAF362 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 310ADC7EB94BE75676FE1168 /* Preview Assets.xcassets */; };
+		77986D85BD5410E1D2DB286C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D810C70E20478C23FEAAB226 /* Assets.xcassets */; };
+		81E7BC1AFAFC02D2A54EDD59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6939A4985E50359DFD15070D /* LaunchScreen.storyboard */; };
+		AEDCC23A490D0AEA092D6D0E /* RepositoryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EE39128CAB3C582CCC2A8D /* RepositoryEntity.swift */; };
+		C365E414C433D304166E50F6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8CB64D761A299CB8B2D0C99 /* Alamofire.framework */; };
+		C99CFF6FBAB2780F7C843366 /* RepositoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88474ADFE6DA9AEF914125AD /* RepositoryView.swift */; };
+		EA21999792E39F986F622745 /* RepositoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA751D161C942FB98ABA1D62 /* RepositoryPresenter.swift */; };
+		F13DAC16725D26A3522755D9 /* RepositoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF61425F17210FEA4DF21E51 /* RepositoryModel.swift */; };
+		FFC1ABFB98BB2144AAAFE578 /* RepositoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A563D8A7F8432A9D973C64F /* RepositoryListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A563D8A7F8432A9D973C64F /* RepositoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListView.swift; sourceTree = "<group>"; };
+		1F1DC987ABD9062ADFC46611 /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
+		27526C58E38C30D6C883C9CF /* gh-viewer-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "gh-viewer-Debug.xcconfig"; sourceTree = "<group>"; };
+		2B9CE665D125D6176B48774F /* gh-viewer.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "gh-viewer.xcconfig"; sourceTree = "<group>"; };
+		310ADC7EB94BE75676FE1168 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36E829EF79C6D96336CB7FF1 /* gh-viewer.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "gh-viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		669A4E3DFC14451A580E7A5D /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		71C42F9FB49218167E8D0C5D /* gh-viewer-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "gh-viewer-Release.xcconfig"; sourceTree = "<group>"; };
+		88474ADFE6DA9AEF914125AD /* RepositoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryView.swift; sourceTree = "<group>"; };
+		AA751D161C942FB98ABA1D62 /* RepositoryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryPresenter.swift; sourceTree = "<group>"; };
+		B33B66A4B4685D888BD41583 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B3EE39128CAB3C582CCC2A8D /* RepositoryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryEntity.swift; sourceTree = "<group>"; };
+		BDBD24643C792B1EE2CDB240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF61425F17210FEA4DF21E51 /* RepositoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryModel.swift; sourceTree = "<group>"; };
+		CA7EAA77CBA8A8E40690AFB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD15E7522EFC291E0FA1310D /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		D810C70E20478C23FEAAB226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8CB64D761A299CB8B2D0C99 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		E62EE971751C191CDC5696A9 /* GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
+		FDE11B752F4BB6FB275B1EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F63D9786E718D2B0E9920C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C365E414C433D304166E50F6 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		154447EFEE75BE4A49B11930 /* configs */ = {
+			isa = PBXGroup;
+			children = (
+				1F1DC987ABD9062ADFC46611 /* Base.xcconfig */,
+				669A4E3DFC14451A580E7A5D /* Debug.xcconfig */,
+				27526C58E38C30D6C883C9CF /* gh-viewer-Debug.xcconfig */,
+				71C42F9FB49218167E8D0C5D /* gh-viewer-Release.xcconfig */,
+				2B9CE665D125D6176B48774F /* gh-viewer.xcconfig */,
+				CD15E7522EFC291E0FA1310D /* Release.xcconfig */,
+			);
+			path = configs;
+			sourceTree = "<group>";
+		};
+		3BF8EDAB7B60A29E56CA81DA /* RepositoryList */ = {
+			isa = PBXGroup;
+			children = (
+				B3EE39128CAB3C582CCC2A8D /* RepositoryEntity.swift */,
+				0A563D8A7F8432A9D973C64F /* RepositoryListView.swift */,
+				BF61425F17210FEA4DF21E51 /* RepositoryModel.swift */,
+				AA751D161C942FB98ABA1D62 /* RepositoryPresenter.swift */,
+				88474ADFE6DA9AEF914125AD /* RepositoryView.swift */,
+			);
+			path = RepositoryList;
+			sourceTree = "<group>";
+		};
+		445F3E0F7AAFC51F34302953 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77FE9473A9D17BBF53D03DB6 /* Carthage */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77FE9473A9D17BBF53D03DB6 /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				FC8ACCE2051367EA20A5A384 /* iOS */,
+			);
+			name = Carthage;
+			path = Carthage/Build;
+			sourceTree = "<group>";
+		};
+		8DEB2677DD6704C7DF7F74E2 /* gh-viewer */ = {
+			isa = PBXGroup;
+			children = (
+				BDBD24643C792B1EE2CDB240 /* AppDelegate.swift */,
+				D810C70E20478C23FEAAB226 /* Assets.xcassets */,
+				FDE11B752F4BB6FB275B1EE9 /* Info.plist */,
+				6939A4985E50359DFD15070D /* LaunchScreen.storyboard */,
+				B33B66A4B4685D888BD41583 /* SceneDelegate.swift */,
+				D6BB64B28ECF3F8C357221D5 /* Modules */,
+				933775936109F89A047A64F2 /* Preview Content */,
+			);
+			path = "gh-viewer";
+			sourceTree = "<group>";
+		};
+		933775936109F89A047A64F2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				310ADC7EB94BE75676FE1168 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B28619DD81500AFB4CAB08B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36E829EF79C6D96336CB7FF1 /* gh-viewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6BB64B28ECF3F8C357221D5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E62EE971751C191CDC5696A9 /* GitHubAPI.swift */,
+				3BF8EDAB7B60A29E56CA81DA /* RepositoryList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		DC8FDC358B4D7C73EEC9F66B = {
+			isa = PBXGroup;
+			children = (
+				154447EFEE75BE4A49B11930 /* configs */,
+				8DEB2677DD6704C7DF7F74E2 /* gh-viewer */,
+				445F3E0F7AAFC51F34302953 /* Frameworks */,
+				B28619DD81500AFB4CAB08B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC8ACCE2051367EA20A5A384 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D8CB64D761A299CB8B2D0C99 /* Alamofire.framework */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E1BA04D2F6070E825441C0B /* gh-viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB7F540F34CBB717C0DB457 /* Build configuration list for PBXNativeTarget "gh-viewer" */;
+			buildPhases = (
+				2E6BFA50B9C5805956100C1A /* Sources */,
+				44F4452A1E516000F2282079 /* Resources */,
+				C912D7E763F1CD4E370B8C8E /* Carthage */,
+				F63D9786E718D2B0E9920C71 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gh-viewer";
+			productName = "gh-viewer";
+			productReference = 36E829EF79C6D96336CB7FF1 /* gh-viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52830675EAB1C415E8654DB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					6E1BA04D2F6070E825441C0B = {
+						DevelopmentTeam = 33B86C86M8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04F59F2B552CA9CE2137C506 /* Build configuration list for PBXProject "gh-viewer" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = DC8FDC358B4D7C73EEC9F66B;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E1BA04D2F6070E825441C0B /* gh-viewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44F4452A1E516000F2282079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77986D85BD5410E1D2DB286C /* Assets.xcassets in Resources */,
+				81E7BC1AFAFC02D2A54EDD59 /* LaunchScreen.storyboard in Resources */,
+				36398E3F2D564EFFD9FAF362 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C912D7E763F1CD4E370B8C8E /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E6BFA50B9C5805956100C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E095EA307F3DCBA68905F08 /* AppDelegate.swift in Sources */,
+				1EEA39A2133FFA408BD85900 /* GitHubAPI.swift in Sources */,
+				AEDCC23A490D0AEA092D6D0E /* RepositoryEntity.swift in Sources */,
+				FFC1ABFB98BB2144AAAFE578 /* RepositoryListView.swift in Sources */,
+				F13DAC16725D26A3522755D9 /* RepositoryModel.swift in Sources */,
+				EA21999792E39F986F622745 /* RepositoryPresenter.swift in Sources */,
+				C99CFF6FBAB2780F7C843366 /* RepositoryView.swift in Sources */,
+				26532D37417AF0118D0DAE05 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6939A4985E50359DFD15070D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA7EAA77CBA8A8E40690AFB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		497111C69743113C68F6C7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD15E7522EFC291E0FA1310D /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		62B24DAECA4BB9FBFC3188D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 669A4E3DFC14451A580E7A5D /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		798A75DB9AE409BDB9A815AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71C42F9FB49218167E8D0C5D /* gh-viewer-Release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+			};
+			name = Release;
+		};
+		93E4AED1D36EDCC55B296930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27526C58E38C30D6C883C9CF /* gh-viewer-Debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F59F2B552CA9CE2137C506 /* Build configuration list for PBXProject "gh-viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B24DAECA4BB9FBFC3188D0 /* Debug */,
+				497111C69743113C68F6C7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9BB7F540F34CBB717C0DB457 /* Build configuration list for PBXNativeTarget "gh-viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E4AED1D36EDCC55B296930 /* Debug */,
+				798A75DB9AE409BDB9A815AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52830675EAB1C415E8654DB0 /* Project object */;
+}

@@ -1,0 +1,18 @@
+name: gh-viewer
+fileGroups:
+  - configs
+configFiles:
+  Debug: configs/Debug.xcconfig
+  Release: configs/Release.xcconfig
+targets:
+  gh-viewer:
+    type: application
+    platform: iOS
+    sources: gh-viewer 
+    configFiles:
+      Debug: configs/gh-viewer-Debug.xcconfig
+      Release: configs/gh-viewer-Release.xcconfig
+    settings:
+      CURRENT_PROJECT_VERSION: 1
+    dependencies:
+      - carthage: Alamofire 
